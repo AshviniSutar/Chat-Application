@@ -1,0 +1,77 @@
+*{
+    background-image: linear-gradient();
+}
+
+body{
+background-image: linear-gradient(rgb(185 60 53),rgb(45, 45, 221));
+height: 100vh;
+}
+
+div img{
+    height: 82px;
+    width: 105px;
+    margin: auto;
+    display: block;
+    padding-bottom: 14px;
+}
+
+.container{
+    height: 50vh;
+    border: 2px solid black;
+    max-width: 50%;
+    margin: auto;
+    padding: 33px;
+    margin-bottom: 23px;
+    overflow-y: auto;
+}
+
+#sendcontainer{
+    display: block;
+    margin: auto;
+    max-width: 1085px;
+    width: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.message{
+    background-color: grey;
+    padding: 10px;
+    margin: 7px 0px;
+    border: 2px solid black;
+    border-radius: 5px;
+    width: 26%;
+}
+
+.left{
+    float:left;
+    clear: both;
+}
+
+.right{
+    float: right;
+    clear: both;
+}
+.send{
+width: 55%;
+    margin: auto;
+}
+
+#msginp{
+    width: 80%;
+    border: 2px solid black;
+    height: 34px;
+    font-size: 22px;
+}
+
+.btn{
+    cursor: pointer;
+    border: 2px solid black;
+    border-radius: 6px;
+    height: 34px;
+    padding: 5px 12px;
+    /* width: 9%; */
+    margin: 0 5px;
+}
